@@ -7,6 +7,7 @@
 * Boost: 1.40+
 
 # Build project
+## Unix
 * Ether set env variables **CMAKE** and **NINJA** with /full/path to binaries or add directory to **PATH** 
 * Also you can set **BUILD** env variable to specify path for binaries (default is *build*)
 * Run **make**
@@ -17,6 +18,13 @@ Example:
 CMAKE=/full/path/to/cmake NINJA=/full/path/to/ninja make
 ./install/test
 ./install/testCompile
+```
+
+## Windows
+Example:
+```bash
+/full/path/to/cmake -G "Visual Studio 17 2022"
+/full/path/to/cmake --build /path/to/build
 ```
 
 # Usage examples
