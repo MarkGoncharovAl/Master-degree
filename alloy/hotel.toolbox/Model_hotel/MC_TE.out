@@ -1,0 +1,140 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.09 of 28 January 2016
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running in Model-Checking mode with 4 workers.
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file MC.tla
+Parsing file hotel.tla
+Parsing file /snap/tlaplus/2/toolbox/plugins/org.lamport.tlatools_1.0.0.201701200352/tla2sany/StandardModules/TLC.tla
+Parsing file /snap/tlaplus/2/toolbox/plugins/org.lamport.tlatools_1.0.0.201701200352/tla2sany/StandardModules/Integers.tla
+Parsing file /snap/tlaplus/2/toolbox/plugins/org.lamport.tlatools_1.0.0.201701200352/tla2sany/StandardModules/Naturals.tla
+Parsing file /snap/tlaplus/2/toolbox/plugins/org.lamport.tlatools_1.0.0.201701200352/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module hotel
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-05-05 17:36:43)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2144:3 @!@!@
+The EXCEPT was applied to non-existing fields of the value at
+line 107, col 37 to line 107, col 44 of module hotel
+@!@!@ENDMSG 2144 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(35) at 2024-05-05 17:36:47: 1234887 states generated (1,234,887 s/min), 403677 distinct states found (403,677 ds/min), 94953 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.1E-6
+  based on the actual fingerprints:  val = 9.5E-9
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2024-05-05 17:37:01
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 26 to line 100, col 64 of module hotel: 1516456
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 36 to line 101, col 43 of module hotel: 1516456
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 102, col 25 to line 102, col 31 of module hotel: 3123926
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 107, col 24 to line 107, col 80 of module hotel: 5268480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 108, col 24 to line 108, col 67 of module hotel: 5268480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 109, col 24 to line 109, col 63 of module hotel: 5268480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 37 to line 110, col 44 of module hotel: 5268480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 110, col 47 to line 110, col 53 of module hotel: 5268480
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 12 to line 69, col 16 of module hotel: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 19 to line 69, col 26 of module hotel: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 29 to line 69, col 30 of module hotel: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 33 to line 69, col 40 of module hotel: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 69, col 43 to line 69, col 49 of module hotel: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 87, col 23 to line 87, col 53 of module hotel: 2144554
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 36 to line 88, col 40 of module hotel: 2144554
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 43 to line 88, col 50 of module hotel: 2144554
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 53 to line 88, col 60 of module hotel: 2144554
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 88, col 63 to line 88, col 69 of module hotel: 2144554
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 94, col 47 to line 94, col 54 of module hotel: 570010
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 95, col 37 to line 95, col 94 of module hotel: 1037460
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 96, col 26 to line 96, col 56 of module hotel: 1607470
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 97, col 39 to line 97, col 43 of module hotel: 1607470
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 97, col 46 to line 97, col 53 of module hotel: 1607470
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 98, col 26 to line 98, col 73 of module hotel: 1516456
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 26 to line 99, col 79 of module hotel: 1516456
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(52) at 2024-05-05 17:37:01: 10536961 states generated (35,412,404 s/min), 2634240 distinct states found (8,853,100 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+10536961 states generated, 2634240 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 52.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 18s at (2024-05-05 17:37:01)
+@!@!@ENDMSG 2186 @!@!@
